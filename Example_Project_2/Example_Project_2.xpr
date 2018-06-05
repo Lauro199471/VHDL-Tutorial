@@ -3,10 +3,10 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="36" Path="/home/lauro199471/Documents/VHDL-Tutorial/Exampple_Project_2/Exampple_Project_2.xpr">
+<Project Version="7" Minor="36" Path="/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_2/Example_Project_2.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="dea1d661c28d4781b028386447dc5328"/>
+    <Option Name="Id" Val="5b1a71fd48b641ae9a8eec245be609fa"/>
     <Option Name="Part" Val="xc7k70tfbv676-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
