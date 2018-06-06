@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1528301215">
+<GenRun Id="synth_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1528305031">
   <File Type="VDS-TIMING-PB" Name="led_blink_timing_summary_synth.pb"/>
   <File Type="VDS-TIMINGSUMMARY" Name="led_blink_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="led_blink.dcp"/>
-  <File Type="PA-TCL" Name="led_blink.tcl"/>
-  <File Type="REPORTS-TCL" Name="led_blink_reports.tcl"/>
-  <File Type="RDS-RDS" Name="led_blink.vds"/>
-  <File Type="RDS-PROPCONSTRS" Name="led_blink_drc_synth.rpt"/>
-  <File Type="RDS-UTIL" Name="led_blink_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="led_blink_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="led_blink_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="led_blink_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="led_blink.vds"/>
+  <File Type="REPORTS-TCL" Name="led_blink_reports.tcl"/>
+  <File Type="PA-TCL" Name="led_blink.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/led_blink.vhd">
@@ -31,7 +31,9 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>
