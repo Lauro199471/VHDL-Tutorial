@@ -54,4 +54,41 @@ begin
             end if;
         end if;
     end process process_4Hz;
+
+    process_2Hz : process (i_clock) is
+    begin 
+        if rising_edge(i_clock) then
+            if cntr_2Hz = freq_2Hz then
+                toggle_2Hz <= not toggle_2Hz;
+                cntr_2Hz <= 0;
+            else 
+            cntr_2Hz <= cntr_2Hz + 1;
+            end if;
+        end if;
+    end process process_2Hz;
+
+    process_1Hz : process (i_clock) is
+    begin 
+        if rising_edge(i_clock) then
+            if cntr_1Hz = freq_1Hz then
+                toggle_1Hz <= not toggle_1Hz;
+                cntr_1Hz <= 0;
+            else 
+                cntr_1Hz <= cntr_1Hz + 1;
+            end if;
+        end if;
+    end process process_1Hz;
+
+    process_1_2Hz : process (i_clock) is
+    begin 
+        if rising_edge(i_clock) then
+            if cntr_1_2Hz = freq_1_2Hz then
+                toggle_1_2Hz <= not toggle_1_2Hz;
+                cntr_1_2Hz <= 0;
+            else 
+                cntr_1_2Hz <= cntr_1_2Hz + 1;
+            end if;
+        end if;
+    end process process_1_2Hz;
+
 end rtl;
