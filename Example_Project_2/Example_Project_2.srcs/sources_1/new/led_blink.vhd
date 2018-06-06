@@ -41,7 +41,21 @@ architecture rtl of led_blink is
     signal toggle_2Hz   : std_logic := '0';
     signal toggle_1Hz   : std_logic := '0';
     signal toggle_1_2Hz : std_logic := '0';
+
+    -- Frequency Output
+    signal o_led_sel : std_logic := '0'; 
 begin
+
+    -- Output
+    o_led <= o_led_sel and i_enable;
+
+    -- Mux
+    o_led_sel <= toggle_4Hz   when(i_switch_1 = '0' and i_switch_2 = '0') else
+                 toggle_2Hz   when(i_switch_1 = '0' and i_switch_2 = '1') else
+                 toggle_1Hz   when(i_switch_1 = '1' and i_switch_2 = '0') else
+                 toggle_1_2Hz when(i_switch_1 = '1' and i_switch_2 = '1') else
+                 '0';
+
     -- All processes toggle a specific signal at a different frequency.
     process_4Hz : process (i_clock) is
     begin 
