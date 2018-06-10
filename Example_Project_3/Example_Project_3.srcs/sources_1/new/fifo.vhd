@@ -1,38 +1,22 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 06/08/2018 07:54:36 AM
--- Design Name: 
--- Module Name: fifo - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
-
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
+-- VHDL code for FIFO memory
 
 entity fifo is
---  Port ( );
+  Port ( 
+    data_out : out std_logic_vector(7 downto 0); -- 8-bits of data out
+    
+    fifo_full, fifo_empty, fifo_threshold, 
+    fifo_overflow, fifo_underflow: out std_logic; -- status-bits
+
+    clk : in std_logic; -- Clock
+    rst : in std_logic; -- Reset
+
+    wr : in std_logic; -- Write Enable
+    rd : in std_logic; -- Read Enable
+    
+    data_in : in std_logic_vector(7 downto 0) -- 8-bits of data in
+  );
 end fifo;
 
 architecture Behavioral of fifo is
