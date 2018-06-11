@@ -1,2 +1,12 @@
 INFO: [VRFC 10-163] Analyzing VHDL file "/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_3/Example_Project_3.srcs/sources_1/new/fifo.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity fifo
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_3/Example_Project_3.srcs/sources_1/new/myReg_file.vhd" into library myMemory
+INFO: [VRFC 10-307] analyzing entity myReg_file
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_3/Example_Project_3.srcs/sources_1/new/myReg_file_tb.vhd" into library myMemory
+INFO: [VRFC 10-307] analyzing entity myReg_file_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_3/Example_Project_3.srcs/sources_1/new/myReg_file_tb.vhd" into library myMemory
+INFO: [VRFC 10-307] analyzing entity myReg_file_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_3/Example_Project_3.srcs/sources_1/new/myReg_file_tb.vhd" into library myMemory
+INFO: [VRFC 10-307] analyzing entity myReg_file_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_3/Example_Project_3.srcs/sources_1/new/myReg_file_tb.vhd" into library myMemory
+INFO: [VRFC 10-307] analyzing entity myReg_file_tb

@@ -1,13 +1,13 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
----------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.1 (lin64) Build 2188600 Wed Apr  4 18:39:19 MDT 2018
-| Date         : Fri Jun  8 15:02:40 2018
+| Date         : Sun Jun 10 17:25:48 2018
 | Host         : lauro199471 running 64-bit Ubuntu 18.04 LTS
-| Command      : report_utilization -file fifo_utilization_synth.rpt -pb fifo_utilization_synth.pb
-| Design       : fifo
+| Command      : report_utilization -file myReg_file_tb_utilization_synth.rpt -pb myReg_file_tb_utilization_synth.pb
+| Design       : myReg_file_tb
 | Device       : 7k70tfbv676-1
 | Design State : Fully Placed
----------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
 
 Utilization Design Information
 

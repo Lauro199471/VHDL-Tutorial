@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl myMemory  \
+"../../../../Example_Project_3.srcs/sources_1/new/myReg_file.vhd" \
+"../../../../Example_Project_3.srcs/sources_1/new/myReg_file_tb.vhd" \
+
+# Do not sort compile order
+nosort
