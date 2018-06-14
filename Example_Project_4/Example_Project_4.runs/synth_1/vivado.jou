@@ -2,8 +2,8 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Tue Jun 12 21:25:37 2018
-# Process ID: 7449
+# Start of session at: Wed Jun 13 09:15:52 2018
+# Process ID: 9434
 # Current directory: /home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.runs/synth_1
 # Command line: vivado -log simple_design_tb.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source simple_design_tb.tcl
 # Log file: /home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.runs/synth_1/simple_design_tb.vds

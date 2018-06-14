@@ -53,6 +53,8 @@ begin
   -- Test Bench
   stimulus: process
   begin
+    rst <= '1';
+    wait for 100 ns;
   
     -- Put initialisation code here
     wait for 53 ns;

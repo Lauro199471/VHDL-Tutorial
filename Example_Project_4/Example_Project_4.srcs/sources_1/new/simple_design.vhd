@@ -1,8 +1,12 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-
 entity simple_design is
+    generic
+    (
+        number_of_registers := 16; -- 16 registers each with 32 bits
+        bit_length_registers := 32
+    );
     Port ( clk : in  STD_LOGIC;
            rst : in  STD_LOGIC; 
 
@@ -22,7 +26,7 @@ architecture Behavioral of simple_design is
 --       Initilaze some types            --
 -------------------------------------------        
     -- -- Declare an array type for a register file. The number of registers is 16 registters of 32 bits each
-    type reg_file_type is array(15 downto 0) of std_logic_vector(31 downto 0);
+    type reg_file_type is array(number_of_registers - 1 downto 0) of std_logic_vector(bit_length_registers - 1 downto 0);
     
     -- make a signal of new type
     signal reg_file : reg_file_type;
@@ -33,10 +37,6 @@ architecture Behavioral of simple_design is
 --           Begin Circuit               --
 -------------------------------------------        
 begin
-    -- Clear First register and Set Second register
-    reg_file(0) <= x"0000_0000"; 
-    reg_file(1) <= x"FFFF_FFFF"; 
-
     -- This is essentially just doing Z <= A 
     Z <= second_stage_outOfProcess;
     second_stage_outOfProcess <= first_stage_outOfProcess;
@@ -57,5 +57,17 @@ begin
 
         end if;
     end process;
-   
+
+    -- D-Flip Flop going so takes 2 clock cycles to pass B to Y
+    reset_process  : process(clk,rst)
+    begin
+        if(rising_edge(clk)) then
+           if(rst = '1') then
+             identifier : for i in 0 to 15 loop
+                 reg_file(i) <= x"1234_5678";
+             end loop ; -- identifier
+            end if;
+        end if;
+    end process;
+    
 end Behavioral;
