@@ -4,8 +4,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity simple_design is
     generic
     (
-        number_of_registers := 16; -- 16 registers each with 32 bits
-        bit_length_registers := 32
+        number_of_registers  : integer := 16; -- 16 registers each with 32 bits
+        bit_length_registers : integer := 32
     );
     Port ( clk : in  STD_LOGIC;
            rst : in  STD_LOGIC; 

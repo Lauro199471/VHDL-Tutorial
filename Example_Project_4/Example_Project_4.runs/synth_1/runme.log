@@ -14,51 +14,53 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 9441 
+INFO: Helper process launched with PID 10266 
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1265.559 ; gain = 77.734 ; free physical = 10707 ; free virtual = 14600
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1265.562 ; gain = 77.734 ; free physical = 27119 ; free virtual = 31528
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'simple_design_tb' [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design_tb.vhd:8]
 INFO: [Synth 8-3491] module 'simple_design' declared at '/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:4' bound to instance 'uut' of component 'simple_design' [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design_tb.vhd:37]
-INFO: [Synth 8-638] synthesizing module 'simple_design' [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:19]
-WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[15] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:62]
-WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[14] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:62]
-WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[13] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:62]
-WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[12] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:62]
-WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[11] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:62]
-WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[10] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:62]
-WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[9] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:62]
-WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[8] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:62]
-WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[7] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:62]
-WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[6] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:62]
-WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[5] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:62]
-WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[4] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:62]
-WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[3] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:62]
-WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[2] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:62]
-WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[1] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:62]
-WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[0] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:62]
-INFO: [Synth 8-256] done synthesizing module 'simple_design' (1#1) [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'simple_design' [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:24]
+	Parameter number_of_registers bound to: 16 - type: integer 
+	Parameter bit_length_registers bound to: 32 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[15] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:67]
+WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[14] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:67]
+WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[13] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:67]
+WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[12] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:67]
+WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[11] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:67]
+WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[10] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:67]
+WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[9] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:67]
+WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[8] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:67]
+WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[7] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:67]
+WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[6] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:67]
+WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[5] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:67]
+WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[4] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:67]
+WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[3] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:67]
+WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[2] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:67]
+WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[1] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:67]
+WARNING: [Synth 8-6014] Unused sequential element reg_file_reg[0] was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:67]
+INFO: [Synth 8-256] done synthesizing module 'simple_design' (1#1) [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:24]
 WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design_tb.vhd:49]
 WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design_tb.vhd:57]
 WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design_tb.vhd:60]
 INFO: [Synth 8-256] done synthesizing module 'simple_design_tb' (2#1) [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design_tb.vhd:8]
 WARNING: [Synth 8-3331] design simple_design has unconnected port rst
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1310.168 ; gain = 122.344 ; free physical = 10720 ; free virtual = 14613
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1310.172 ; gain = 122.344 ; free physical = 27137 ; free virtual = 31544
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1310.168 ; gain = 122.344 ; free physical = 10719 ; free virtual = 14612
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1310.172 ; gain = 122.344 ; free physical = 27137 ; free virtual = 31544
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7k70tfbv676-1
----------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7k70tfbv676-1
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1318.172 ; gain = 130.348 ; free physical = 10718 ; free virtual = 14611
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1318.176 ; gain = 130.348 ; free physical = 27136 ; free virtual = 31543
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1326.180 ; gain = 138.355 ; free physical = 10718 ; free virtual = 14611
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1326.184 ; gain = 138.355 ; free physical = 27135 ; free virtual = 31544
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -102,17 +104,17 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
 WARNING: [Synth 8-115] binding instance 'i_0' in module 'simple_design_tb' to reference 'partition' which has no pins
-INFO: [Synth 8-4471] merging register 'uut/first_stage_inOfProcess_var_reg' into 'uut/first_stage_inOfProcess_reg' [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:50]
-INFO: [Synth 8-4471] merging register 'uut/second_stage_inOfProcess_var_reg' into 'uut/second_stage_inOfProcess_reg' [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:49]
-WARNING: [Synth 8-6014] Unused sequential element uut/first_stage_inOfProcess_reg was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:46]
-WARNING: [Synth 8-6014] Unused sequential element uut/second_stage_inOfProcess_reg was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:45]
-WARNING: [Synth 8-6014] Unused sequential element uut/Y_reg was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:45]
-WARNING: [Synth 8-6014] Unused sequential element uut/first_stage_inOfProcess_var_reg was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:50]
-WARNING: [Synth 8-6014] Unused sequential element uut/second_stage_inOfProcess_var_reg was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:49]
-WARNING: [Synth 8-6014] Unused sequential element uut/X_reg was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:49]
+INFO: [Synth 8-4471] merging register 'uut/first_stage_inOfProcess_var_reg' into 'uut/first_stage_inOfProcess_reg' [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:55]
+INFO: [Synth 8-4471] merging register 'uut/second_stage_inOfProcess_var_reg' into 'uut/second_stage_inOfProcess_reg' [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:54]
+WARNING: [Synth 8-6014] Unused sequential element uut/first_stage_inOfProcess_reg was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:51]
+WARNING: [Synth 8-6014] Unused sequential element uut/second_stage_inOfProcess_reg was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element uut/Y_reg was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element uut/first_stage_inOfProcess_var_reg was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:55]
+WARNING: [Synth 8-6014] Unused sequential element uut/second_stage_inOfProcess_var_reg was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:54]
+WARNING: [Synth 8-6014] Unused sequential element uut/X_reg was removed.  [/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.srcs/sources_1/new/simple_design.vhd:54]
 WARNING: [Synth 8-3330] design simple_design_tb has an empty top module
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:28 . Memory (MB): peak = 1406.430 ; gain = 218.605 ; free physical = 10578 ; free virtual = 14472
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1407.434 ; gain = 219.605 ; free physical = 27003 ; free virtual = 31435
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -125,7 +127,7 @@ No constraint files found.
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:28 . Memory (MB): peak = 1406.430 ; gain = 218.605 ; free physical = 10577 ; free virtual = 14471
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1407.434 ; gain = 219.605 ; free physical = 27003 ; free virtual = 31435
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -137,7 +139,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:28 . Memory (MB): peak = 1406.430 ; gain = 218.605 ; free physical = 10577 ; free virtual = 14471
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1407.434 ; gain = 219.605 ; free physical = 27003 ; free virtual = 31435
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -161,7 +163,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 1406.430 ; gain = 218.605 ; free physical = 10577 ; free virtual = 14471
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1407.434 ; gain = 219.605 ; free physical = 27003 ; free virtual = 31435
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -174,7 +176,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 1406.430 ; gain = 218.605 ; free physical = 10577 ; free virtual = 14471
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1407.434 ; gain = 219.605 ; free physical = 27003 ; free virtual = 31435
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -186,25 +188,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 1406.430 ; gain = 218.605 ; free physical = 10577 ; free virtual = 14471
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1407.434 ; gain = 219.605 ; free physical = 27003 ; free virtual = 31435
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 1406.430 ; gain = 218.605 ; free physical = 10577 ; free virtual = 14471
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1407.434 ; gain = 219.605 ; free physical = 27003 ; free virtual = 31435
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 1406.430 ; gain = 218.605 ; free physical = 10577 ; free virtual = 14471
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1407.434 ; gain = 219.605 ; free physical = 27003 ; free virtual = 31435
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 1406.430 ; gain = 218.605 ; free physical = 10577 ; free virtual = 14471
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1407.434 ; gain = 219.605 ; free physical = 27003 ; free virtual = 31435
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -229,11 +231,11 @@ Report Instance Areas:
 |1     |top      |       |     0|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 1406.430 ; gain = 218.605 ; free physical = 10577 ; free virtual = 14471
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1407.434 ; gain = 219.605 ; free physical = 27003 ; free virtual = 31435
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 28 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 1406.430 ; gain = 218.605 ; free physical = 10577 ; free virtual = 14471
-Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:29 . Memory (MB): peak = 1406.438 ; gain = 218.605 ; free physical = 10577 ; free virtual = 14471
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1407.434 ; gain = 219.605 ; free physical = 27003 ; free virtual = 31435
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1407.441 ; gain = 219.605 ; free physical = 27003 ; free virtual = 31435
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -243,8 +245,8 @@ No Unisim elements were transformed.
 INFO: [Common 17-83] Releasing license: Synthesis
 14 Infos, 28 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:30 . Memory (MB): peak = 1500.500 ; gain = 312.941 ; free physical = 10539 ; free virtual = 14433
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:22 . Memory (MB): peak = 1500.496 ; gain = 312.934 ; free physical = 26951 ; free virtual = 31397
 INFO: [Common 17-1381] The checkpoint '/home/lauro199471/Documents/VHDL-Tutorial/Example_Project_4/Example_Project_4.runs/synth_1/simple_design_tb.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file simple_design_tb_utilization_synth.rpt -pb simple_design_tb_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.12 . Memory (MB): peak = 1524.512 ; gain = 0.000 ; free physical = 10539 ; free virtual = 14433
-INFO: [Common 17-206] Exiting Vivado at Wed Jun 13 09:16:29 2018...
+report_utilization: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1524.508 ; gain = 0.000 ; free physical = 26952 ; free virtual = 31397
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 13 19:10:52 2018...
