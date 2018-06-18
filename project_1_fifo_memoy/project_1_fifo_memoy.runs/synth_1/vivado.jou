@@ -2,8 +2,8 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Fri Jun 15 13:19:40 2018
-# Process ID: 20973
+# Start of session at: Mon Jun 18 10:16:39 2018
+# Process ID: 23899
 # Current directory: /home/lauro199471/Documents/VHDL-Tutorial/project_1_fifo_memoy/project_1_fifo_memoy.runs/synth_1
 # Command line: vivado -log myFIFO_tb.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source myFIFO_tb.tcl
 # Log file: /home/lauro199471/Documents/VHDL-Tutorial/project_1_fifo_memoy/project_1_fifo_memoy.runs/synth_1/myFIFO_tb.vds

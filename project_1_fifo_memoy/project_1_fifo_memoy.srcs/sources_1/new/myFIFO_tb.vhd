@@ -68,44 +68,98 @@ begin
     rst <= '1';
     wait for 100 ns;
     rst <= '0';
+    
 
     -- Put test bench stimulus code here
-    data_in <= x"AA";
+    -- ||||||||||||||||||||||||||||||||
+    -- ||||        Write          |||||
+    -- ||||||||||||||||||||||||||||||||
+    EN_RD <= '0';
     EN_WR <= '1';
-    wait for 60 ns;
+    data_in <= x"AA";
+    wait for 55 ns;
     EN_WR <= '0';
+    wait for 55 ns;
     
-    wait for 60 ns;
+    
     data_in <= x"BB";
     EN_WR <= '1';
-    wait for 60 ns;
+    wait for 47 ns;
     EN_WR <= '0';
+    wait for 25 ns;
     
-    wait for 60 ns;
+    
     data_in <= x"CC";
     EN_WR <= '1';
-    wait for 60 ns;
+    wait for 74 ns;
     EN_WR <= '0';
+    wait for 85 ns;
 
-    wait for 60 ns;
+    
     data_in <= x"DD";
     EN_WR <= '1';
     wait for 60 ns;
     EN_WR <= '0';
+    wait for 60 ns;
 
-    wait for 60 ns;
-    data_in <= x"EE";
-    EN_WR <= '1';
-    wait for 60 ns;
+    -- ||||||||||||||||||||||||||||||||
+    -- ||||        Read           |||||
+    -- ||||||||||||||||||||||||||||||||
+    EN_RD <= '1';
     EN_WR <= '0';
+    wait for 60 ns;
+    EN_RD <= '0';
+    wait for 60 ns;
 
-    wait for 60 ns;
-    data_in <= x"FF";
-    EN_WR <= '1';
-    wait for 60 ns;
+    EN_RD <= '1';
     EN_WR <= '0';
+    wait for 60 ns;
+    EN_RD <= '0';
+    wait for 60 ns;
+
+    EN_RD <= '1';
+    EN_WR <= '0';
+    wait for 60 ns;
+    EN_RD <= '0';
+    wait for 60 ns;
+
+    EN_RD <= '1';
+    EN_WR <= '0';
+    wait for 60 ns;
+    EN_RD <= '0';
+    wait for 60 ns;
+
+    -- ||||||||||||||||||||||||||||||||
+    -- ||||        Write          |||||
+    -- ||||||||||||||||||||||||||||||||
+    EN_RD <= '0';
+    EN_WR <= '1';
+    data_in <= x"1F";
+    wait for 55 ns;
+    EN_WR <= '0';
+    wait for 55 ns;
     
-    wait;
+    
+    data_in <= x"3D";
+    EN_WR <= '1';
+    wait for 47 ns;
+    EN_WR <= '0';
+    wait for 25 ns;
+    
+    
+    data_in <= x"24";
+    EN_WR <= '1';
+    wait for 74 ns;
+    EN_WR <= '0';
+    wait for 85 ns;
+
+    
+    data_in <= x"A1";
+    EN_WR <= '1';
+    wait for 60 ns;
+    EN_WR <= '0';
+    wait for 60 ns;
+
   end process;
 
 
