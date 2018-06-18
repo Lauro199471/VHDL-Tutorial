@@ -18,3 +18,5 @@ is a combinational digital electronic circuit that performs arithmetic and bitwi
 14. Logical XNOR : ALU_Out = A XNOR B;
 15. Greater comparison : ALU_Out = 1 if A > B else 0;
 16. Equal comparison : ALU_Out = 1 A = B else 0;
+
+![untitled diagram](https://user-images.githubusercontent.com/13907836/41560696-c5a47968-72fc-11e8-8875-b529ecb50885.png)
