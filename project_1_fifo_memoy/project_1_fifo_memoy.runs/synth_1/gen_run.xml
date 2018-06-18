@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xa7s50ftgb196-1I" LaunchTime="1528949422">
+<GenRun Id="synth_1" LaunchPart="xa7s50ftgb196-1I" LaunchTime="1529093979">
   <File Type="VDS-TIMING-PB" Name="myFIFO_tb_timing_summary_synth.pb"/>
   <File Type="VDS-TIMINGSUMMARY" Name="myFIFO_tb_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="myFIFO_tb.dcp"/>
