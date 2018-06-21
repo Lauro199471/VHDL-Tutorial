@@ -1,6 +1,3 @@
-# VHDL-Tutorial
-Tutorial for learning VHDL
+# MIPS Processor in VHDL
+![untitled diagram](https://user-images.githubusercontent.com/13907836/41696801-cc47cc8c-74ca-11e8-9246-930518de7466.png)
 
-## Go to Wiki for Tutorial 
-![tool3](https://user-images.githubusercontent.com/13907836/40880675-0b03eb1e-666a-11e8-866e-66054b62c9e7.jpg)
-![circle_of_mates_green thumbnail](https://user-images.githubusercontent.com/13907836/40880677-232118ac-666a-11e8-973f-edd3d2f87746.png)
